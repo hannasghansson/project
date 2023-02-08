@@ -1,17 +1,18 @@
 import React from "react";
 
 //components
-import Header from "../layouts/Header/Header";
-import Hero from "../layouts/Hero/Hero";
+// import Header from "../layouts/Header/Header";
+// <Header />;
+// import Hero from "../layouts/Hero/Hero";
+// <Hero />;
+import MainMenu from "../layouts/MainMenu/MainMenu";
 
 const home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <MainMenu />
 
-      <Header />
-      <hr />
-      <Hero />
+      <h1>Home</h1>
     </div>
   );
 };
