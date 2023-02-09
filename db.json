@@ -1,0 +1,44 @@
+{
+  "faq": [
+    {
+      "id": 1158573882,
+      "question": "json-server",
+      "answer": "typicode"
+    },
+    {
+      "id": 653357720,
+      "question": "json-server",
+      "answer": "typicode"
+    },
+    {
+      "id": 2490204757,
+      "question": "json-server",
+      "answer": "typicode"
+    },
+    {
+      "id": 1697045789,
+      "question": "json-server",
+      "answer": "typicode"
+    },
+    {
+      "id": 140537370,
+      "question": "json-server",
+      "answer": "typicode"
+    },
+    {
+      "id": 3703220783,
+      "question": "json-server",
+      "answer": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

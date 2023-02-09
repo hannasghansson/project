@@ -28,11 +28,10 @@ span{
     background-color: #1B1B1B;
     color: #FDFDFD;
     font-family: sans-serif;
-}
+} 
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
-
     font-weight: 700;
 }
 
@@ -41,9 +40,21 @@ p{
     
 }
 
+
+
+#brand{
+    color: #7E7E7E;
+    text-transform: capitalize;
+    letter-spacing:0;
+}
+
 span{
     color: #7E7E7E;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
+    /* letter-spacing: 1vh; */
 
 }
+
+
