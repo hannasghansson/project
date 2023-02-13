@@ -1,29 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
-
-// MainMenuData = [
-//   {
-//     links: {
-//       title: "",
-//       title:"",
-//       title:""
-
-//     },
-
-//     {
-
-//     }
-//   }
-
-// ]
+import LogoImg from "../../assets/Logo/logoDark.png";
 
 const MainMenu = () => {
   return (
-    <header className="container py-4">
-      <nav className="d-flex justify-content-between align-items-center py-3">
+    <header className="container border-bottom mt-4">
+      <nav className=" d-flex justify-content-between align-items-center py-3">
         <Link to="/about" className="navbar-brand">
-          <span id="brand">Company name</span>
+          <img
+            style={{
+              width: 150,
+            }}
+            src={LogoImg}
+            alt="/"
+            className="text-center mb-3"
+          />
         </Link>
         <ul className="list-unstyled d-flex gap-4 align-items-baseline mb-0">
           <li>
@@ -48,7 +40,6 @@ const MainMenu = () => {
           </button>
         </ul>
       </nav>
-      <hr />
     </header>
   );
 };

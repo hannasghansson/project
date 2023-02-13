@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AuthForm from "../../components/AuthForm/AuthForm";
-import imgBg from "../../assets/img/bg.png";
 
 const signUp = () => {
   return (
