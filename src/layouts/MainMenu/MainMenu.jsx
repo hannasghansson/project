@@ -20,8 +20,8 @@ import "./styles.css";
 
 const MainMenu = () => {
   return (
-    <header>
-      <nav className="container d-flex justify-content-between align-items-center py-4">
+    <header className="container py-4">
+      <nav className="d-flex justify-content-between align-items-center py-3">
         <Link to="/about" className="navbar-brand">
           <span id="brand">Company name</span>
         </Link>
@@ -48,6 +48,7 @@ const MainMenu = () => {
           </button>
         </ul>
       </nav>
+      <hr />
     </header>
   );
 };
